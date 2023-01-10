@@ -1,8 +1,10 @@
 import React from 'react';
+import './Footer.scss';
 
 const Footer = () => (
-  <div>
-    Footer
+  <div className="footer">
+    <div>movie App</div>
+    <div>Created by Zainab Al-Zubair. ©2023</div>
   </div>
 );
 
