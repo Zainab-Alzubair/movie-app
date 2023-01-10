@@ -1,8 +1,10 @@
 import React from 'react';
+import MovieListing from '../MovieListing/MovieListing';
 
 const Home = () => (
   <div>
-    Home
+    <div className="banner-img" />
+    <MovieListing />
   </div>
 );
 
