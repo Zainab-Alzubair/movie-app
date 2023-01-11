@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 /* eslint-disable no-param-reassign */
 
 const initialState = {
-  movies: [],
+  movies: {},
 };
 
 const moviesSlice = createSlice({
