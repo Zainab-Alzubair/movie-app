@@ -1,7 +1,7 @@
 @import "../../common/colors.scss";
+
 .card-item {
   background: $secondary-color;
-  cursor: pointer;
   transition: all 0.3s;
 
   &:hover {
@@ -11,7 +11,7 @@
 }
 
 .card-top {
-  height: 300px;
+  height: 200px;
 
   img {
     width: 100%;
@@ -22,11 +22,23 @@
 .card-bottom {
   padding: 20px;
 }
+
 .card-info {
   color: $font-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
   h4 {
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 10px;
+    text-align: right;
+  }
+
+  p {
+    color: black;
+    font-weight: 700;
   }
 }

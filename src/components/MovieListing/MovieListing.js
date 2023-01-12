@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { BiCameraMovie } from 'react-icons/bi';
 import { getAllMovies } from '../../redux/movies/movieSlice';
 import MovieCard from '../MovieCard/MovieCard';
 import './MovieListing.scss';
@@ -22,7 +23,10 @@ const MovieListing = () => {
   return (
     <div className="movie-wrapper">
       <div className="movie-list">
-        <h2>Movies</h2>
+        <div className="hero">
+          <h2><BiCameraMovie style={{ color: 'black', fontSize: '100px' }} /></h2>
+          <h2>{` (${renderMovies.length}) Movies`}</h2>
+        </div>
         <div className="movie-container">{renderMovies}</div>
       </div>
 
