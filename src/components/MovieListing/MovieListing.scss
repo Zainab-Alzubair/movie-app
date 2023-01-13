@@ -16,6 +16,15 @@
   grid-gap: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .movie-container {
+    grid-gap: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 48% 48%;
+  }
+}
+
 .hero {
   height: 190px;
   display: flex;
