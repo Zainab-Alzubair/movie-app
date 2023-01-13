@@ -20,7 +20,7 @@ export const fetchMovieDetail = createAsyncThunk('movies/fetchMovieDetail',
     return response.data;
   });
 
-const initialState = {
+export const initialState = {
   movies: {},
   selectedMovie: {},
 };
