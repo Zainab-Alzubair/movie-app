@@ -1,0 +1,36 @@
+@import "../../common/colors.scss";
+
+.movie-list {
+  margin: 20px 0;
+
+  h2 {
+    color: $font-secondary;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .movie-container {
+    grid-gap: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 48% 48%;
+  }
+}
+
+.hero {
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  background-color: #e83278;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
