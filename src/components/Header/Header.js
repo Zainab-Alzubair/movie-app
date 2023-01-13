@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 /* eslint-disable consistent-return */
+/* eslint-disable no-alert */
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FiMenu, FiMic } from 'react-icons/fi';
