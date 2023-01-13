@@ -14,6 +14,7 @@ describe('listingRender component tests', () => {
         </BrowserRouter>
         ,
       </Provider>,
+
     );
 
     expect(listingRender).toMatchSnapshot();
