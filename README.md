@@ -213,6 +213,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 - Thanks to [Microverse](https://www.microverse.org/) for giving this opportunity to learn ...
 - Code Reviewers & Coding Partners.
 - Hat tip to anyone whose code was used.
