@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FiMenu, FiMic } from 'react-icons/fi';
 import { fetchAsyncMovies } from '../../redux/movies/movieSlice';
-import user from '../../images/user-image.png';
 import './Header.scss';
 
 const Header = () => {
@@ -37,9 +36,6 @@ const Header = () => {
         </form>
       </div>
       <FiMic style={{ color: 'white', fontSize: '25px' }} />
-      <div className="user-image">
-        <img src={user} alt="user" />
-      </div>
     </div>
   );
 };
