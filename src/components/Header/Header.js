@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 /* eslint-disable consistent-return */
 /* eslint-disable no-alert */
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { FiMenu, FiMic } from 'react-icons/fi';
 import { fetchAsyncMovies } from '../../redux/movies/movieSlice';
 import './Header.scss';
@@ -19,15 +18,12 @@ const Header = () => {
   return (
     <div className="header">
       <FiMenu style={{ color: 'white', fontSize: '30px' }} />
-      <div className="logo">
-        <Link to="/">Movie App</Link>
-      </div>
       <div className="search-bar">
         <form onSubmit={submitHandler}>
           <input
             type="text"
             value={term}
-            placeholder="Search Movies or Shows"
+            placeholder="Search Movies"
             onChange={(e) => setTerm(e.target.value)}
           />
           <button type="submit">
